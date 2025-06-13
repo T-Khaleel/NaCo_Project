@@ -5,6 +5,25 @@
 This repository is a project for Natural Computing course, 2025, where we experimented with the testing of concept drift using NSA and kNN algrithms. 
 
 
+## How to run the files
+### Datasets for execution
+You can use the provided datasets for the executions. In each zip folder, ".train" file is for training, and ".test" is for testing.
+
+### NSA Algorithm:
+1) To run the NSA algorithm, you can use the Textor's version of the algorithm on command prompt. (See https://johannes-textor.name/negativeselection.html)
+2) Save the output to a .txt file.
+3) Once you have the normal and anomalous text files, you can use the "Combine_NSA_Result.ipynb" code to combine the results from normal and anomalous data.
+4) Save the resultant output file in a directory of your choice.
+5) Then plot the AUC graph.
+
+
+
+### kNN Algorithm:
+1) To run the kNN algorithm, use the "kNNmodel_and_AUC_Plotting.ipynb" notebook. 
+2) Give the train files in "english_path_train" and "non_english_path_train" variables, and test files in "non_english_path_test" and "english_path_test".
+5) Then plot the AUC graph.
+6) You can also give the path of the NSA results in "file_pattern" and plot all the graphs.
+
 
 
 ## Dataset Overview
